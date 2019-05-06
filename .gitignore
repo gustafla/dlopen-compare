@@ -2,3 +2,4 @@ executable
 target/
 **/*.rs.bk
 Cargo.lock
+*.so*
