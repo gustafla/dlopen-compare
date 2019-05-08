@@ -1,2 +1,2 @@
 #!/bin/sh
-cc -o executable executable.c -ldl
+cc `pkg-config --cflags --libs sdl2` -Wall -Wextra -o executable executable.c -ldl
